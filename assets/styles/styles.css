@@ -1,4 +1,5 @@
 @import 'https://necolas.github.io/normalize.css/8.0.1/normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
 @import './global.css';
 @import './layout.css';
 @import './components.css';

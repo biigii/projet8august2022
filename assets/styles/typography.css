@@ -1,6 +1,54 @@
+@font-face {
+  font-family: 'Bree Serif Regular';
+  src: url('../fonts/BreeSerif-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Josefin Slab Regular';
+  src: url('../fonts/JosefinSlab-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Josefin Slab Bold';
+  src: url('../fonts/JosefinSlab-Bold.ttf');
+}
+
+.navigation a {
+  font-family: 'Josefin Slab Regular';
+}
+
+/* vh vw */
+
 h1 {
-  text-transform: capitalize;
-  font-size: 70px;
+  text-transform: uppercase;
+  text-shadow: 10px 10px 5px rgb(51, 23, 23);
+  /* text-transform: capitalize; */
+  font-size: 12vw;
   text-align: center;
   margin: 50px 0;
+  color: #f33;
+  /* font-family: 'Bree Serif Regular'; */
+  font-family: 'Josefin Slab Bold';
+}
+
+p.text {
+  font-family: 'Roboto Mono', monospace;
+  font-variant: small-caps;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  word-spacing: 20px;
+  /* 100 200 300 400 500 600 700 800 900 */
+}
+
+p.content {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 2;
+  /* font: italic small-caps 700 18px/26px sans-serif; */
+  text-align: justify;
+  text-decoration: underline;
+  text-indent: 100px;
 }

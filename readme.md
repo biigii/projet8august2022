@@ -3,3 +3,5 @@ https://developer.mozilla.org/
 
 https://codepen.io/behshad/pen/rNwemxG
 https://codepen.io/behshad/pen/JjjYpPW
+
+https://fonts.google.com/

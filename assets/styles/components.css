@@ -32,21 +32,10 @@ nav.navigation {
   color: #f11;
   border-bottom-color: #f11;
 }
-
 .box {
-  width: 300px;
-  height: 300px;
-  background-color: rgb(32, 174, 222);
-  transition: transform 1000ms;
-}
-
-.box:hover {
-   /* transform: scale(1.01); */
-   /* width: 150px;
-   height: 150px; */
-   /* transform: rotate(360deg); */
-   /* transform: scaleY(1.2); */
-   /* transform: rotateY(120deg); */
-   /* transform: translate(100px, 100px) rotate(45deg); */
-   transform: skewX(45deg);
+  width: 200px;
+  height: 200px;
+  background-color: #b4bbc0;
+  /* box-shadow: -10px -10px 15px inset #933737; */
+  box-shadow: 10px 10px 15px #a9c633
 }
