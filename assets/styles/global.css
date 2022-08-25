@@ -1,0 +1,11 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+}

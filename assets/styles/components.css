@@ -1,0 +1,34 @@
+header {
+  height: 100px;
+}
+
+nav.navigation {
+  height: 100%;
+  line-height: 100px;
+  text-align: center;
+  background-color: #b4bbc0;
+}
+
+.navigation a::after {
+  content: ' \276F';
+}
+
+.navigation a {
+   text-decoration: none;
+   font-size: 20px;
+   text-transform: uppercase;
+   margin: 0 50px;
+   color: #fff;
+   /* transition: color 1s ease-in-out; */
+   transition-property: color, border-bottom-color;
+   transition-duration: 0.6s;
+   transition-timing-function: linear;
+   border-bottom-width: 3px;
+   border-bottom-style: solid;
+   border-bottom-color: #b4bbc0;
+}
+
+.navigation a:hover {
+  color: #f11;
+  border-bottom-color: #f11;
+}
