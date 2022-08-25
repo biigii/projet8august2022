@@ -32,3 +32,21 @@ nav.navigation {
   color: #f11;
   border-bottom-color: #f11;
 }
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(32, 174, 222);
+  transition: transform 1000ms;
+}
+
+.box:hover {
+   /* transform: scale(1.01); */
+   /* width: 150px;
+   height: 150px; */
+   /* transform: rotate(360deg); */
+   /* transform: scaleY(1.2); */
+   /* transform: rotateY(120deg); */
+   /* transform: translate(100px, 100px) rotate(45deg); */
+   transform: skewX(45deg);
+}
